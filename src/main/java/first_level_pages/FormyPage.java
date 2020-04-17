@@ -9,7 +9,7 @@ import java.text.Normalizer;
 import java.util.List;
 
 public class FormyPage {
-    private WebDriver driver;
+    WebDriver driver;
     private By firstNameId = By.id("first-name");
     private By lastNameId = By.id("last-name");
     private By jobTitleId = By.id("job-title");
@@ -47,8 +47,7 @@ public class FormyPage {
 
     public Boolean checkRadioButtonState(){
         WebElement element = driver.findElement(By.id("radio-button-1"));
-        boolean state = element.isSelected();
-        return state;
+        return element.isSelected();
     }
 
     public List<Boolean> getRadioButtons(){

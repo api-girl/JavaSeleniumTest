@@ -13,9 +13,8 @@ import java.util.List;
 
 
 public class BaseTestFormy {
-    WebDriver driver;
-    FormyPage formyPage;
-    private By allRadioButtons = By.cssSelector("input[type='radio']");
+    private WebDriver driver;
+    protected FormyPage formyPage;
 
     @BeforeClass
     public void setUp() {

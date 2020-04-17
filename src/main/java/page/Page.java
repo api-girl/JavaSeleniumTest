@@ -1,18 +1,18 @@
-package first_level_pages;
+package page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class Page {
-    private WebDriver driver;
+    protected static WebDriver driver;
 
-
+    public void setPageDriver(WebDriver driver){
+        Page.driver = driver;
+    }
 
     public void clickById(String id){
         driver.findElement(By.id(id)).click();
     }
-
-
 
     public void clickByXPath(String xPath){
         driver.findElement(By.xpath(xPath)).click();

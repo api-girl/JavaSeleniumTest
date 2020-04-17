@@ -9,17 +9,14 @@ import org.testng.annotations.*;
 import static org.testng.Assert.*;
 
 public class HoverTest extends BaseTest {
-    WebDriver driver;
-    HomePage homePage;
-    HoverPage hoverPage;
+    private HoverPage hoverPage;
 
     @Test
     public void testHoveringOverFigureDisplaysCaption(){
-       hoverPage = homePage.goToHoverPage();
-       HoverPage.Caption caption = hoverPage.hoversOverFigure(2);
+        hoverPage = homePage.goToHoverPage();
+        HoverPage.Caption caption = hoverPage.hoversOverFigure(2);
 
        assertTrue(caption.isCaptionDisplayed(), "Caption is not displayed.");
-
     }
 
     @Test
@@ -27,7 +24,7 @@ public class HoverTest extends BaseTest {
         hoverPage = homePage.goToHoverPage();
         HoverPage.Caption caption = hoverPage.hoversOverFigure(2);
 
-        assertEquals(caption.getHeaderText(), caption.getHeaderText().contains("name: user2"), "Header text is not correct.");
+        assertEquals(caption.getHeaderText(), "name: user2", "Header text is not correct.");
     }
 
     @Test
@@ -35,6 +32,6 @@ public class HoverTest extends BaseTest {
         hoverPage = homePage.goToHoverPage();
         HoverPage.Caption caption = hoverPage.hoversOverFigure(2);
 
-        assertEquals(caption.getLink(), caption.getLink().contains("/users/2"), "The link value is incorrect.");
+        assertTrue(caption.getLink().endsWith("/users/2"), "The link does not end correctly.");
     }
 }

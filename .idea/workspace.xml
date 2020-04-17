@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0199d160-b40d-4157-a92f-7573ca76fe25" name="Default Changelist" comment="" />
+    <list default="true" id="0199d160-b40d-4157-a92f-7573ca76fe25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/FileUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/HorizontalSliderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/JsAlertPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/KeyPresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fileUpload/FileUploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/horizontalSlider/HorizontalSliderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javaScriptAlerts/JavaScriptAlertsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/keyPresses/KeyPressesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/DropdownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/DropdownPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/ForgotPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/FormAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/FormAuthPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/FormyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/FormyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/HoverPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/HoverPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/ShiftingContentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/ShiftingContentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/second_level_pages/ConfPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/second_level_pages/ConfPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTestFormy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTestFormy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dropdown/DropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dropdown/DropdownTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/forgotPassword/ForgotPasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/forgotPassword/ForgotPasswordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/formy/FormyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/formy/FormyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hover/HoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hover/HoverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/menuItems/MenuItemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/menuItems/MenuItemsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/DropdownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/DropdownPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/ForgotPasswordPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/ForgotPasswordPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/FormAuthPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/FormAuthPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/FormyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/FormyPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/HoverPage$Caption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/HoverPage$Caption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/HoverPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/HoverPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/ShiftingContentPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/ShiftingContentPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/second_level_pages/ConfPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/second_level_pages/ConfPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTestFormy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTestFormy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dropdown/DropdownTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dropdown/DropdownTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/forgotPassword/ForgotPasswordTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/forgotPassword/ForgotPasswordTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/formy/FormyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/formy/FormyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hover/HoverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hover/HoverTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/login/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/login/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/menuItems/MenuItemsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/menuItems/MenuItemsTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +60,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +71,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1aAvc6IPNvsKGXClwpbBOMaelhV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -31,9 +83,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -43,33 +97,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HoverTest.testHoveringOverFigureDisplaysCaptionWithCorrectLink">
-    <configuration name="BaseTestFormy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.BaseTestFormy" />
-      <module name="WebDriverWithJavaTAU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FormyPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="first_level_pages.FormyPage" />
-      <module name="WebDriverWithJavaTAU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="first_level_pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.MenuItemsTest">
     <configuration name="JUnitTestHomePage" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="WebDriverWithJavaTAU" />
       <useClassPathOnly />
@@ -82,54 +110,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormyTest.testVerifyNoneRadioButtonIsSelected" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HorizontalSliderTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebDriverWithJavaTAU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="formy.*" />
+          <option name="PATTERN" value="horizontalSlider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="formy" />
-      <option name="MAIN_CLASS_NAME" value="formy.FormyTest" />
-      <option name="METHOD_NAME" value="testVerifyNoneRadioButtonIsSelected" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="horizontalSlider" />
+      <option name="MAIN_CLASS_NAME" value="horizontalSlider.HorizontalSliderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverTest.testHoveringOverFigureDisplaysCaption" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaScriptAlertsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebDriverWithJavaTAU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hover.*" />
+          <option name="PATTERN" value="javaScriptAlerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hover" />
-      <option name="MAIN_CLASS_NAME" value="hover.HoverTest" />
-      <option name="METHOD_NAME" value="testHoveringOverFigureDisplaysCaption" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="javaScriptAlerts" />
+      <option name="MAIN_CLASS_NAME" value="javaScriptAlerts.JavaScriptAlertsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverTest.testHoveringOverFigureDisplaysCaptionWithCorrectLink" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KeyPressesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebDriverWithJavaTAU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hover.*" />
+          <option name="PATTERN" value="keyPresses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hover" />
-      <option name="MAIN_CLASS_NAME" value="hover.HoverTest" />
-      <option name="METHOD_NAME" value="testHoveringOverFigureDisplaysCaptionWithCorrectLink" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="keyPresses" />
+      <option name="MAIN_CLASS_NAME" value="keyPresses.KeyPressesTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebDriverWithJavaTAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuItemsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebDriverWithJavaTAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="menuItems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="menuItems" />
+      <option name="MAIN_CLASS_NAME" value="menuItems.MenuItemsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -138,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HoverTest.testHoveringOverFigureDisplaysCaptionWithCorrectLink" />
-        <item itemvalue="TestNG.HoverTest.testHoveringOverFigureDisplaysCaption" />
-        <item itemvalue="TestNG.FormyTest.testVerifyNoneRadioButtonIsSelected" />
-        <item itemvalue="Application.BaseTestFormy" />
-        <item itemvalue="Application.FormyPage" />
+        <item itemvalue="TestNG.MenuItemsTest" />
+        <item itemvalue="TestNG.KeyPressesTest" />
+        <item itemvalue="TestNG.JavaScriptAlertsTest" />
+        <item itemvalue="TestNG.HorizontalSliderTest" />
+        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,62 +238,70 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586882851257" />
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586838113644">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587005757129">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1586838113644" />
-    <state x="151" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586813290662">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1587005757129" />
+    <state x="479" y="222" width="408" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587161065637">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="151" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1586813290662" />
+    <state x="479" y="222" width="408" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1587161065637" />
+    <state x="151" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587084812799">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="151" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1587084812799" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586813345128">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586813345128" />
-    <state width="1323" height="315" key="GridCell.Tab.0.bottom" timestamp="1586915865358">
+    <state x="506" y="119" key="FileChooserDialogImpl" timestamp="1586921248209">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586915865358" />
-    <state width="1323" height="315" key="GridCell.Tab.0.center" timestamp="1586915865358">
+    <state x="506" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586921248209" />
+    <state width="1323" height="373" key="GridCell.Tab.0.bottom" timestamp="1587161049127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586915865358" />
-    <state width="1323" height="315" key="GridCell.Tab.0.left" timestamp="1586915865358">
+    <state width="1323" height="373" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587161049127" />
+    <state width="1323" height="373" key="GridCell.Tab.0.center" timestamp="1587161049127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586915865358" />
-    <state width="1323" height="315" key="GridCell.Tab.0.right" timestamp="1586915865358">
+    <state width="1323" height="373" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587161049127" />
+    <state width="1323" height="373" key="GridCell.Tab.0.left" timestamp="1587161049127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586915865358" />
-    <state width="1323" height="315" key="GridCell.Tab.1.bottom" timestamp="1586915865373">
+    <state width="1323" height="373" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587161049127" />
+    <state width="1323" height="373" key="GridCell.Tab.0.right" timestamp="1587161049127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586915865373" />
-    <state width="1323" height="315" key="GridCell.Tab.1.center" timestamp="1586915865373">
+    <state width="1323" height="373" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587161049127" />
+    <state width="1323" height="249" key="GridCell.Tab.1.bottom" timestamp="1587092003392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1586915865373" />
-    <state width="1323" height="315" key="GridCell.Tab.1.left" timestamp="1586915865373">
+    <state width="1323" height="249" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587092003392" />
+    <state width="1323" height="249" key="GridCell.Tab.1.center" timestamp="1587092003392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1586915865358" />
-    <state width="1323" height="315" key="GridCell.Tab.1.right" timestamp="1586915865373">
+    <state width="1323" height="249" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587092003392" />
+    <state width="1323" height="249" key="GridCell.Tab.1.left" timestamp="1587092003392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="315" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586915865373" />
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1586795381963">
+    <state width="1323" height="249" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587092003392" />
+    <state width="1323" height="249" key="GridCell.Tab.1.right" timestamp="1587092003392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1586795381962" />
-    <state x="268" y="0" width="916" height="728" key="SettingsEditor" timestamp="1586823690301">
+    <state width="1323" height="249" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587092003392" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1587084466788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="268" y="0" width="916" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586823690301" />
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586904322946">
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1587084466788" />
+    <state x="268" y="0" width="916" height="728" key="SettingsEditor" timestamp="1586921249283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1586904322946" />
+    <state x="268" y="0" width="916" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586921249283" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587013544551">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1587013544551" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1586195557060">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -243,17 +310,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586883266093" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586823605374">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586984217037">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586823605374" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586984217037" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/login/LoginTest.java</url>
-          <line>14</line>
+          <line>15</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -263,14 +330,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/formy/FormyTest.java</url>
-          <line>34</line>
+          <line>33</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/first_level_pages/HoverPage.java</url>
-          <line>31</line>
-          <properties field="driver" class="first_level_pages.HoverPage.Caption" />
-          <option name="timeStamp" value="24" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/keyPresses/KeyPressesTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/horizontalSlider/HorizontalSliderTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/first_level_pages/HorizontalSliderPage.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/hover/HoverTest.java</url>
+          <line>30</line>
+          <properties class="hover.HoverTest" method="testHoveringOverFigureDisplaysCaptionWithCorrectLink">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/hover/HoverTest.java</url>
+          <line>22</line>
+          <properties class="hover.HoverTest" method="testHoveringOverFigureDisplaysCaptionWithCorrectTitle">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

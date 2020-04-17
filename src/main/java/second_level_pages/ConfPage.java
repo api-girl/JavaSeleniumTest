@@ -1,11 +1,10 @@
 package second_level_pages;
 
-import first_level_pages.Page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class ConfPage extends Page {
+public class ConfPage {
     private WebDriver driver;
 
     public ConfPage(WebDriver driver){

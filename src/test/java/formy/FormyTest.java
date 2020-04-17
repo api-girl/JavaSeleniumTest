@@ -9,10 +9,9 @@ import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 public class FormyTest extends BaseTestFormy {
-    WebDriver driver;
     FormyPage formyPage;
 
- //   @Test
+//    @Test
 //     public void testTextFields(){
 //            FormyPage formyPage = new FormyPage(driver);
 //          formyPage.setFirstName("Miriam");
@@ -32,7 +31,7 @@ public class FormyTest extends BaseTestFormy {
             1. get a list of radio buttons and
             2. confirm that none is selected
          */
-        System.out.println(formyPage.checkRadioButtonState());
+        assertFalse(formyPage.checkRadioButtonState(), "Radio buttons state is incorrect.");
 
        // assertFalse(, "The radio button is selected and should not be.");
 

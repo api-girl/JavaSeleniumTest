@@ -1,19 +1,12 @@
 package first_level_pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import page.Page;
 import second_level_pages.ConfPage;
 
-public class ForgotPasswordPage extends Page{
-    private WebDriver driver;
+public class ForgotPasswordPage extends Page {
     private By emailField = By.id("email");
-
     private By submitButton = By.id("form_submit");
-
-    public ForgotPasswordPage(WebDriver driver){
-        this.driver = driver;
-    }
 
     public void setEmail(String email) {
         driver.findElement(emailField).sendKeys(email);
