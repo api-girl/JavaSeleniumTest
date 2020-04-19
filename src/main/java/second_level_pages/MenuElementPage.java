@@ -3,17 +3,13 @@ package second_level_pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import page.Page;
 
 import java.util.List;
 
-public class MenuElementPage {
-
-    private WebDriver driver;
+public class MenuElementPage extends Page {
     private By menuItemsUnorderedList = By.xpath("//div[@class='example']/ul/li");
 
-    public MenuElementPage(WebDriver driver){
-        this.driver = driver;
-    }
 
     public int countMenuItems(){
         List<WebElement> menuItems = driver.findElements(menuItemsUnorderedList);

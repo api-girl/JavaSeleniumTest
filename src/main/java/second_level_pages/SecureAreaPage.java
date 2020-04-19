@@ -1,21 +1,13 @@
 package second_level_pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import page.Page;
 
 
-public class SecureAreaPage {
-    private WebDriver driver;
+public class SecureAreaPage extends Page {
     private By promptMessage = By.id("flash");
 
-    public SecureAreaPage(WebDriver driver){
-        this.driver = driver;
-    }
-
     public String getPromptMessage(){
-        WebElement prompt = driver.findElement(promptMessage);
-        return prompt.getText();
-
+        return driver.findElement(promptMessage).getText();
     }
 }

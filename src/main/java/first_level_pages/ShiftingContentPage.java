@@ -11,6 +11,6 @@ public class ShiftingContentPage extends Page {
     public MenuElementPage gotoMenuElementPage(){
         WebElement menuElement = driver.findElement(linkMenuElement);
         menuElement.click();
-        return new MenuElementPage(driver);
+        return new MenuElementPage();
     }
 }

@@ -1,20 +1,17 @@
 package first_level_pages;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import page.Page;
 
 
 public class HomePage extends Page {
     private String expectedPageTitle = "The Internet";
-    private String linkTextShiftingContent = "Shifting Content";
-    private By linkDropdownXpath = By.xpath("//ul/li[11]/a");
-    private String linkFormAuth = "Form Authentication";
-    private By linkForgotPasswordXpath = By.xpath("//ul/li[20]/a");
-    private String linkHoverXpath = "//ul/li[25]/a";
-    private String linkHover = "Hovers";
-    private String linkKeyPresses = "Key Presses";
-    private String linkHorizontalSlider = "Horizontal Slider";
-    private String linkJsAlerts = "JavaScript Alerts";
+    private String link_TextShiftingContent = "Shifting Content";
+    private String link_DropdownXpath = "//ul/li[11]/a";
+    private String link_FormAuth = "Form Authentication";
+    private String link_ForgotPasswordXpath = "//ul/li[20]/a";
+    private String link_Hover = "Hovers";
+    private String link_KeyPresses = "Key Presses";
+    private String link_HorizontalSlider = "Horizontal Slider";
+    private String link_JsAlerts = "JavaScript Alerts";
 
     public void getPageTitle(){
         String actualPageTitle = driver.getTitle();
@@ -22,29 +19,23 @@ public class HomePage extends Page {
 
     }
 
-    private void clickByLinkText(String linkText){
-        driver.findElement(By.linkText(linkText)).click();
-    }
-
     public ShiftingContentPage goToShiftingContentPage(){
-        clickByLinkText(linkTextShiftingContent);
+        clickByLinkText(link_TextShiftingContent);
         return new ShiftingContentPage();
     }
 
     public FormAuthPage goToFormAuthPage(){
-        clickByLinkText(linkFormAuth);
+        clickByLinkText(link_FormAuth);
         return new FormAuthPage();
     }
 
     public DropdownPage goToDropdownPage(){   // the test was failing when a clickByLinkText or clickByXPath methods would be called in from this method
-        WebElement element = driver.findElement(linkDropdownXpath);
-        element.click();
+        clickByXPath(link_DropdownXpath);
         return new DropdownPage();
     }
 
     public ForgotPasswordPage goToForgotPasswordPage() {
-        WebElement element = driver.findElement(By.linkText("Forgot Password"));
-        element.click();
+        clickByXPath(link_ForgotPasswordXpath);
         return new ForgotPasswordPage();
     }
 
@@ -56,27 +47,52 @@ public class HomePage extends Page {
     public HoverPage goToHoverPage(){
         //JavascriptExecutor js = (JavascriptExecutor) driver;
         //js.executeScript("arguments[0].scrollIntoView();", element);
-        clickByLinkText(linkHover);
+        clickByLinkText(link_Hover);
         return new HoverPage();
     }
 
     public KeyPresses goToKeyPressesPage(){
-        clickByLinkText(linkKeyPresses);
+        clickByLinkText(link_KeyPresses);
         return new KeyPresses();
     }
 
     public HorizontalSliderPage goToHorizontalSliderPage(){
-        clickByLinkText(linkHorizontalSlider);
+        clickByLinkText(link_HorizontalSlider);
         return new HorizontalSliderPage();
     }
 
     public JsAlertPage goToJsAlertPage() {
-        clickByLinkText(linkJsAlerts);
+        clickByLinkText(link_JsAlerts);
         return new JsAlertPage();
     }
 
     public FileUpload goToFileUploadPage() {
         clickByLinkText("File Upload");
         return new FileUpload();
+    }
+
+    public ContextMenu goToContextMenuPage() {
+        clickByLinkText("Context Menu");
+        return new ContextMenu();
+    }
+
+    public EntryAddPage goToEntryAddPage() {
+        clickByLinkText("Entry Ad");
+        return new EntryAddPage();
+    }
+
+    public WysiwygEditorPage goToWysiwygEditorPage() {
+        clickByLinkText("WYSIWYG Editor");
+        return new WysiwygEditorPage();
+    }
+
+    public NestedFramesPage goToNestedFramesPage(){
+        clickByLinkText("Nested Frames");
+        return new NestedFramesPage();
+    }
+
+    public DynamicLoadingExamplesPage goToDynamicLoadingPage() {
+        clickByLinkText("Dynamic Loading");
+        return new DynamicLoadingExamplesPage();
     }
 }

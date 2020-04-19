@@ -14,7 +14,7 @@ public class ForgotPasswordPage extends Page {
 
    public ConfPage clickOnRetrievePasswordButton() {
         driver.findElement(submitButton).click();
-        return new ConfPage(driver);
+        return new ConfPage();
     }
 
     public ConfPage retrievePassword(String email){

@@ -1,5 +1,6 @@
 package base;
 
+import org.openqa.selenium.support.ui.WebDriverWait;
 import page.Page;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,8 +19,6 @@ public class BaseTest {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
 
-        goHome();
-
         page = new Page();
         page.setPageDriver(driver);
 
@@ -30,6 +29,11 @@ public class BaseTest {
     public void goHome(){
         driver.get(url);
         driver.manage().window().maximize();
+    }
+
+    @AfterMethod
+    public void deleteCookies(){
+        driver.manage().deleteAllCookies();
     }
 
     @AfterClass

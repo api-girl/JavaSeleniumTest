@@ -2,51 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0199d160-b40d-4157-a92f-7573ca76fe25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/FileUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/HorizontalSliderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/JsAlertPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/KeyPresses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fileUpload/FileUploadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/horizontalSlider/HorizontalSliderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/javaScriptAlerts/JavaScriptAlertsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/keyPresses/KeyPressesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/ContextMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/DynamicLoadingExamplesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/EntryAddPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/NestedFramesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/WysiwygEditorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/second_level_pages/Example1Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/second_level_pages/Example2Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/contextMenu/ContextMenuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dynamicLoading/DynamicLoadingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/entryAd/EntryAdTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nestedFrames/NestedFramesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wYSIWYGEditor/WysiwygEditorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/DropdownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/DropdownPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/FileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/FileUpload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/ForgotPasswordPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/FormAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/FormAuthPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/FormyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/FormyPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/HoverPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/HoverPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/first_level_pages/ShiftingContentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_level_pages/ShiftingContentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/second_level_pages/ConfPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/second_level_pages/ConfPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/second_level_pages/MenuElementPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/second_level_pages/MenuElementPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/second_level_pages/SecureAreaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/second_level_pages/SecureAreaPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTestFormy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTestFormy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dropdown/DropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dropdown/DropdownTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/forgotPassword/ForgotPasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/forgotPassword/ForgotPasswordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fileUpload/FileUploadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fileUpload/FileUploadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/formy/FormyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/formy/FormyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hover/HoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hover/HoverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/menuItems/MenuItemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/menuItems/MenuItemsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/DropdownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/DropdownPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/FileUpload.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/FileUpload.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/ForgotPasswordPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/ForgotPasswordPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/FormAuthPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/FormAuthPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/FormyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/FormyPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/HoverPage$Caption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/HoverPage$Caption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/HorizontalSliderPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/HorizontalSliderPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/HoverPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/HoverPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/JsAlertPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/JsAlertPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/KeyPresses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/KeyPresses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/Page.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/first_level_pages/ShiftingContentPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_level_pages/ShiftingContentPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/second_level_pages/ConfPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/second_level_pages/ConfPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/second_level_pages/MenuElementPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/second_level_pages/MenuElementPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTestFormy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTestFormy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dropdown/DropdownTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dropdown/DropdownTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/forgotPassword/ForgotPasswordTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/forgotPassword/ForgotPasswordTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fileUpload/FileUploadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fileUpload/FileUploadTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/formy/FormyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/formy/FormyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hover/HoverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hover/HoverTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/login/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/login/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/menuItems/MenuItemsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/menuItems/MenuItemsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,16 +88,16 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="first_level_pages" />
       <recent name="second_level_pages" />
+      <recent name="first_level_pages" />
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MenuItemsTest">
+  <component name="RunManager" selected="TestNG.DynamicLoadingTest.testExample2GetTextOnceItBecomesPresent">
     <configuration name="JUnitTestHomePage" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="WebDriverWithJavaTAU" />
       <useClassPathOnly />
@@ -110,84 +110,88 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HorizontalSliderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicLoadingTest.testExample1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebDriverWithJavaTAU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="horizontalSlider.*" />
+          <option name="PATTERN" value="dynamicLoading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="horizontalSlider" />
-      <option name="MAIN_CLASS_NAME" value="horizontalSlider.HorizontalSliderTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="dynamicLoading" />
+      <option name="MAIN_CLASS_NAME" value="dynamicLoading.DynamicLoadingTest" />
+      <option name="METHOD_NAME" value="testExample1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaScriptAlertsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicLoadingTest.testExample1GetTextAfterLoadingIndicatorBecomesInvisible" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebDriverWithJavaTAU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaScriptAlerts.*" />
+          <option name="PATTERN" value="dynamicLoading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javaScriptAlerts" />
-      <option name="MAIN_CLASS_NAME" value="javaScriptAlerts.JavaScriptAlertsTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="dynamicLoading" />
+      <option name="MAIN_CLASS_NAME" value="dynamicLoading.DynamicLoadingTest" />
+      <option name="METHOD_NAME" value="testExample1GetTextAfterLoadingIndicatorBecomesInvisible" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyPressesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicLoadingTest.testExample2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebDriverWithJavaTAU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="keyPresses.*" />
+          <option name="PATTERN" value="dynamicLoading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="keyPresses" />
-      <option name="MAIN_CLASS_NAME" value="keyPresses.KeyPressesTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="dynamicLoading" />
+      <option name="MAIN_CLASS_NAME" value="dynamicLoading.DynamicLoadingTest" />
+      <option name="METHOD_NAME" value="testExample2" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicLoadingTest.testExample2GetTextOnceItBecomesPresent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebDriverWithJavaTAU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="login.*" />
+          <option name="PATTERN" value="dynamicLoading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="dynamicLoading" />
+      <option name="MAIN_CLASS_NAME" value="dynamicLoading.DynamicLoadingTest" />
+      <option name="METHOD_NAME" value="testExample2GetTextOnceItBecomesPresent" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuItemsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ForgotPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebDriverWithJavaTAU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="menuItems.*" />
+          <option name="PATTERN" value="forgotPassword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="menuItems" />
-      <option name="MAIN_CLASS_NAME" value="menuItems.MenuItemsTest" />
+      <option name="PACKAGE_NAME" value="forgotPassword" />
+      <option name="MAIN_CLASS_NAME" value="forgotPassword.ForgotPasswordTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -197,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MenuItemsTest" />
-        <item itemvalue="TestNG.KeyPressesTest" />
-        <item itemvalue="TestNG.JavaScriptAlertsTest" />
-        <item itemvalue="TestNG.HorizontalSliderTest" />
-        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.DynamicLoadingTest.testExample2GetTextOnceItBecomesPresent" />
+        <item itemvalue="TestNG.DynamicLoadingTest.testExample2" />
+        <item itemvalue="TestNG.DynamicLoadingTest.testExample1GetTextAfterLoadingIndicatorBecomesInvisible" />
+        <item itemvalue="TestNG.DynamicLoadingTest.testExample1" />
+        <item itemvalue="TestNG.ForgotPasswordTest" />
       </list>
     </recent_temporary>
   </component>
@@ -238,18 +242,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586882851257" />
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587005757129">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587230377488">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1587005757129" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1587230377488" />
     <state x="479" y="222" width="408" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587161065637">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="222" width="408" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1587161065637" />
-    <state x="151" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587084812799">
+    <state x="151" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587180940625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="151" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1587084812799" />
+    <state x="151" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1587180940625" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586813345128">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -258,46 +262,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="506" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586921248209" />
-    <state width="1323" height="373" key="GridCell.Tab.0.bottom" timestamp="1587161049127">
+    <state width="1323" height="365" key="GridCell.Tab.0.bottom" timestamp="1587264394330">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="373" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587161049127" />
-    <state width="1323" height="373" key="GridCell.Tab.0.center" timestamp="1587161049127">
+    <state width="1323" height="365" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587264394330" />
+    <state width="1323" height="365" key="GridCell.Tab.0.center" timestamp="1587264394330">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="373" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587161049127" />
-    <state width="1323" height="373" key="GridCell.Tab.0.left" timestamp="1587161049127">
+    <state width="1323" height="365" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587264394330" />
+    <state width="1323" height="365" key="GridCell.Tab.0.left" timestamp="1587264394330">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="373" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587161049127" />
-    <state width="1323" height="373" key="GridCell.Tab.0.right" timestamp="1587161049127">
+    <state width="1323" height="365" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587264394330" />
+    <state width="1323" height="365" key="GridCell.Tab.0.right" timestamp="1587264394330">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="373" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587161049127" />
-    <state width="1323" height="249" key="GridCell.Tab.1.bottom" timestamp="1587092003392">
+    <state width="1323" height="365" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587264394330" />
+    <state width="1323" height="253" key="GridCell.Tab.1.bottom" timestamp="1587259016879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="249" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587092003392" />
-    <state width="1323" height="249" key="GridCell.Tab.1.center" timestamp="1587092003392">
+    <state width="1323" height="253" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587259016879" />
+    <state width="1323" height="253" key="GridCell.Tab.1.center" timestamp="1587259016879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="249" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587092003392" />
-    <state width="1323" height="249" key="GridCell.Tab.1.left" timestamp="1587092003392">
+    <state width="1323" height="253" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587259016879" />
+    <state width="1323" height="253" key="GridCell.Tab.1.left" timestamp="1587259016879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="249" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587092003392" />
-    <state width="1323" height="249" key="GridCell.Tab.1.right" timestamp="1587092003392">
+    <state width="1323" height="253" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587259016879" />
+    <state width="1323" height="253" key="GridCell.Tab.1.right" timestamp="1587259016879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="249" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587092003392" />
+    <state width="1323" height="253" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587259016879" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1587084466788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1587084466788" />
-    <state x="268" y="0" width="916" height="728" key="SettingsEditor" timestamp="1586921249283">
+    <state x="450" y="9" width="916" height="708" key="SettingsEditor" timestamp="1587257032424">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="268" y="0" width="916" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586921249283" />
+    <state x="450" y="9" width="916" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587257032424" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587013544551">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -310,10 +314,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586883266093" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586984217037">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587241570921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586984217037" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587241570921" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -325,13 +329,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/first_level_pages/FormyPage.java</url>
-          <line>48</line>
+          <line>45</line>
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/formy/FormyTest.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/keyPresses/KeyPressesTest.java</url>
@@ -347,6 +346,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/first_level_pages/HorizontalSliderPage.java</url>
           <line>32</line>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/nestedFrames/NestedFramesTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/hover/HoverTest.java</url>

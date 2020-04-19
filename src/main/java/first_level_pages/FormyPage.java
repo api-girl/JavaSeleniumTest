@@ -4,31 +4,28 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import page.Page;
 
 import java.text.Normalizer;
 import java.util.List;
 
-public class FormyPage {
-    WebDriver driver;
-    private By firstNameId = By.id("first-name");
+public class FormyPage extends Page {
+
     private By lastNameId = By.id("last-name");
     private By jobTitleId = By.id("job-title");
     private By allRadioButtons = By.cssSelector("input[type='radio']");
     private By firstRadioButton = By.id("radio-button-1");
     private By allCheckBoxes = By.cssSelector("input[type='checkbox']");
 
-
-    public FormyPage(WebDriver driver) {
-        this.driver = driver;
+    public WebElement getTextInputField(By locator){
+        WebElement field = driver.findElement(locator);
+        return field;
     }
+
 
     public void setFirstName(String name) {
         WebElement fNField = driver.findElement(By.cssSelector("#first-name"));
-        if (fNField.isDisplayed()) {
-            fNField.sendKeys(name);
-        } else {
-            System.out.println("The field is not displayed yet.");
-        }
+        fNField.sendKeys(name);
     }
 
     public void setLastName(String lastName) {

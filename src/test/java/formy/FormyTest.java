@@ -1,29 +1,22 @@
 package formy;
 
 import base.BaseTestFormy;
-import first_level_pages.FormyPage;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
+
+import static org.testng.Assert.*;
 
 public class FormyTest extends BaseTestFormy {
-    FormyPage formyPage;
+    private By firstNameId = By.id("first-name");
 
-//    @Test
-//     public void testTextFields(){
-//            FormyPage formyPage = new FormyPage(driver);
-//          formyPage.setFirstName("Miriam");
-////        WebElement lastName =
-//          formyPage.setLastName(lastName);
-////        WebElement jobTitle =
-//          formyPage.setJobTitle(jobTitle);
-//
-//        assertSame("Miriam",firstName.getText(), "First name is not displayed.");
-//        assertTrue(lastName.isDisplayed(), "Last name is not displayed.");
-//        assertTrue(jobTitle.isDisplayed(), "Job title is not displayed.");
-//}
+    @Test
+     public void testTextFields(){
+          formyPage.setFirstName("Miriam");
+          formyPage.setLastName("Cukucan");
+          formyPage.setJobTitle("QA Analyst");
+
+//        assertEquals();
+    }
 
     @Test
     public void testVerifyNoneRadioButtonIsSelected() {

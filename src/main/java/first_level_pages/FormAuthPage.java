@@ -29,6 +29,6 @@ public class FormAuthPage extends Page {
 
     public SecureAreaPage clickLoginButton(){
         clickByCssSelector(loginButton);
-        return new SecureAreaPage(driver);
+        return new SecureAreaPage();
     }
 }
