@@ -1,18 +1,27 @@
 package base;
 
+import com.google.common.io.Files;
 import first_level_pages.FormyPage;
-import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
-import page.Page;
+import utilities.Page;
+
+import java.io.File;
+import java.io.IOException;
 
 public class BaseTestFormy {
     private static WebDriver driver;
     protected static Page page;
-    protected FormyPage formyPage;
     private String url = "https://formy-project.herokuapp.com/form";
+    protected Logger logger;
+
 
     @BeforeClass
     public void setUp() {
@@ -21,9 +30,6 @@ public class BaseTestFormy {
 
         page = new Page();
         page.setPageDriver(driver);
-
-        formyPage = new FormyPage();
-
     }
 
     @BeforeMethod
@@ -32,9 +38,28 @@ public class BaseTestFormy {
         driver.manage().window().maximize();
     }
 
+    protected void stepInfo(String stepDescription) {
+        logger = LoggerFactory.getLogger(Thread.currentThread().getName() + "." + getClass().getSimpleName());
+        logger.info(String.format("%s", stepDescription));
+    }
+
     @AfterMethod
-    public void deleteCookies(){
-        driver.manage().deleteAllCookies();
+    public void recordFailure(ITestResult result){
+        if(ITestResult.FAILURE == result.getStatus())
+        {
+            var camera = (TakesScreenshot)driver;
+            File screenshot = camera.getScreenshotAs(OutputType.FILE);
+            try{
+                Files.move(screenshot, new File("resources/screenshots/" + result.getName() + ".png"));
+            }catch(IOException e){
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public ChromeOptions getChromeOptions(){
+        ChromeOptions options = new ChromeOptions();
+        return options.setHeadless(true);
     }
 
     @AfterClass

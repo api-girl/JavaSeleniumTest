@@ -1,7 +1,7 @@
 package first_level_pages;
 
 import org.openqa.selenium.By;
-import page.Page;
+import utilities.Page;
 
 public class FileUpload extends Page {
     private String browseButton = "file-upload";

@@ -2,7 +2,7 @@ package first_level_pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import page.Page;
+import utilities.Page;
 import second_level_pages.SecureAreaPage;
 
 public class FormAuthPage extends Page {

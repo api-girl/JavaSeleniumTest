@@ -1,9 +1,8 @@
 package second_level_pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import page.Page;
+import utilities.Page;
 
 import java.util.List;
 

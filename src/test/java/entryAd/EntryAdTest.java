@@ -11,18 +11,19 @@ public class EntryAdTest extends BaseTest {
     EntryAddPage entryAdd;
 
     @Test
-    public void testIsPageContentEnabled(){
+    public void testIsPageContentEnabled() {
         entryAdd = homePage.goToEntryAddPage();
 
         assertThrows(ElementClickInterceptedException.class, () -> entryAdd.clickLinkUnderModal());
+        entryAdd.deleteCookiesAfterEachTest();
     }
 
     @Test
-    public void testVerifyModalContent(){
+    public void testVerifyModalContent() {
         String expectedModalTitle = "This is a modal window";
         String expectedModalBody = "It's commonly used to encourage a user to take an action " +
-                                    "(e.g., give their e-mail address to sign up for " +
-                                    "something or disable their ad blocker).";
+                "(e.g., give their e-mail address to sign up for " +
+                "something or disable their ad blocker).";
 
         entryAdd = homePage.goToEntryAddPage();
         String actualModalTitle = entryAdd.getModalTitle();
@@ -30,6 +31,7 @@ public class EntryAdTest extends BaseTest {
 
         assertEquals(actualModalTitle, expectedModalTitle.toUpperCase(), "Actual title doesn't match the expected.");
         assertEquals(actualModalBody, expectedModalBody, "Actual modal body doesn't match the expected.");
+        entryAdd.deleteCookiesAfterEachTest();
     }
 
     @Test
@@ -38,5 +40,7 @@ public class EntryAdTest extends BaseTest {
         entryAdd.closeModal();
 
         assertTrue(entryAdd.getLinkUnderModal().isEnabled(), "Page content is still not enabled.");
+        entryAdd.deleteCookiesAfterEachTest();
     }
+
 }

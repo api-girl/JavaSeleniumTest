@@ -1,5 +1,5 @@
 package first_level_pages;
-import page.Page;
+import utilities.Page;
 
 
 public class HomePage extends Page {
@@ -39,14 +39,7 @@ public class HomePage extends Page {
         return new ForgotPasswordPage();
     }
 
-//    private void waitForElementClickability(int seconds, By locator){
-//        WebDriverWait wait = new WebDriverWait(driver, seconds);
-//        wait.until(ExpectedConditions)
-//    }
-
     public HoverPage goToHoverPage(){
-        //JavascriptExecutor js = (JavascriptExecutor) driver;
-        //js.executeScript("arguments[0].scrollIntoView();", element);
         clickByLinkText(link_Hover);
         return new HoverPage();
     }
@@ -94,5 +87,20 @@ public class HomePage extends Page {
     public DynamicLoadingExamplesPage goToDynamicLoadingPage() {
         clickByLinkText("Dynamic Loading");
         return new DynamicLoadingExamplesPage();
+    }
+
+    public LargeDeepDomPage goToLargeDeepDomPage(){
+        clickByLinkText("Large & Deep DOM");
+        return new LargeDeepDomPage();
+    }
+
+    public InfiniteScroll goToInfiniteScrollPage(){
+        clickByLinkText("Infinite Scroll");
+        return new InfiniteScroll();
+    }
+
+    public MultipleWindowsPage goToMultipleWindowsPage() {
+        clickByLinkText("Multiple Windows");
+        return new MultipleWindowsPage();
     }
 }

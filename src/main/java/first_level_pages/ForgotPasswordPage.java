@@ -1,7 +1,7 @@
 package first_level_pages;
 
 import org.openqa.selenium.By;
-import page.Page;
+import utilities.Page;
 import second_level_pages.ConfPage;
 
 public class ForgotPasswordPage extends Page {

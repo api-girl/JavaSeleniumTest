@@ -1,15 +1,21 @@
 package base;
 
-import org.openqa.selenium.support.ui.WebDriverWait;
-import page.Page;
-import org.openqa.selenium.WebDriver;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.annotations.*;
+import org.testng.ITestResult;
 import first_level_pages.HomePage;
-
+import utilities.EventListener;
+import utilities.WindowManager;
+import utilities.Page;
+import java.io.File;
+import java.io.IOException;
 
 public class BaseTest {
-    private static WebDriver driver;
+    private static EventFiringWebDriver driver;
     protected static Page page;
     protected HomePage homePage;
     private static final String url = "https://the-internet.herokuapp.com/";
@@ -17,27 +23,53 @@ public class BaseTest {
     @BeforeClass
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
-        driver = new ChromeDriver();
+        driver = new EventFiringWebDriver(new ChromeDriver(getChromeOptions()));
+        driver.register(new EventListener());
 
         page = new Page();
         page.setPageDriver(driver);
-
-        homePage = new HomePage();
     }
 
+
     @BeforeMethod
-    public void goHome(){
+    public void goHome() {
         driver.get(url);
+        homePage = new HomePage();
+
         driver.manage().window().maximize();
     }
 
     @AfterMethod
-    public void deleteCookies(){
-        driver.manage().deleteAllCookies();
+    //deleteCookies and recordFailure methods prohibit each other, find out why
+    public void recordFailure(ITestResult result){
+        if(ITestResult.FAILURE == result.getStatus())
+        {
+            var camera = (TakesScreenshot)driver;
+            File screenshot = camera.getScreenshotAs(OutputType.FILE);
+            try{
+                Files.move(screenshot, new File("resources/screenshots/" + result.getName() + ".png"));
+            }catch(IOException e){
+                e.printStackTrace();
+            }
+        }
     }
+
+    private ChromeOptions getChromeOptions(){
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("disable-infobars");
+        //options.setHeadless(true);
+        return options;
+    }
+
+    public WindowManager getWindowManager() {
+        return new WindowManager();
+    }
+
 
     @AfterClass
     public void tearDown() {
         driver.quit();
     }
+
+
 }

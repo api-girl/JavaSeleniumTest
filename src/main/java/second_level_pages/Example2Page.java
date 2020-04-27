@@ -1,7 +1,6 @@
 package second_level_pages;
 
 import org.openqa.selenium.By;
-import page.Page;
 
 public class Example2Page extends Example1Page {
     private String loadedText = "#finish h4";

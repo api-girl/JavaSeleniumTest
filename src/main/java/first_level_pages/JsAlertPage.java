@@ -2,7 +2,7 @@ package first_level_pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import page.Page;
+import utilities.Page;
 
 public class JsAlertPage extends Page {
     private By triggerAlertButton = By.cssSelector("button[onclick='jsAlert()']");

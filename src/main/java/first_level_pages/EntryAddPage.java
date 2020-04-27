@@ -1,9 +1,8 @@
 package first_level_pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.WebElement;
-import page.Page;
+import utilities.Page;
 
 public class EntryAddPage extends Page {
     private String closeModalButton = "div.modal-footer p";

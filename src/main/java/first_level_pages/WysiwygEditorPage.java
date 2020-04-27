@@ -1,7 +1,7 @@
 package first_level_pages;
 
 import org.openqa.selenium.By;
-import page.Page;
+import utilities.Page;
 
 public class WysiwygEditorPage extends Page {
 private By editorIframeId = By.id("mce_0_ifr"); //can be used for locating iframe or the iframe's index
